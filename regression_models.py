@@ -43,7 +43,7 @@ def scale_data(train,validate,test,columns):
     return scaled_train,scaled_validate,scaled_test
 
 
-def get_baseline_RMSE(y_train):
+def get_baseline_RMSE(y_train,y_validate):
     '''
     this function will calculate baseline mean and baseline median and calculate RMSE from mean and median
     '''
